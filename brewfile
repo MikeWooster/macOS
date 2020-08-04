@@ -1,0 +1,20 @@
+# specify a directory to install
+cask_args appdir: '/Applications'
+# install packages
+tap 'caskroom/homebrew-cask' || true
+brew 'git'
+brew 'bash-completion'
+brew 'pyenv'
+brew 'terraform'
+brew 'tree'
+brew 'sqlite'
+brew 'nvm'
+brew 'node'
+brew 'wget'
+brew 'vim'
+# Casks
+cask 'google-chrome'
+cask 'slack'
+cask 'iterm2'
+cask 'dbeaver-community'
+cask 'aws-vault'
