@@ -1,7 +1,8 @@
 # specify a directory to install
 cask_args appdir: '/Applications'
 # install packages
-tap 'caskroom/homebrew-cask' || true
+tap 'homebrew/cask'
+
 brew 'git'
 brew 'bash-completion'
 brew 'pyenv'
@@ -12,6 +13,7 @@ brew 'nvm'
 brew 'node'
 brew 'wget'
 brew 'vim'
+brew 'awscli'
 # Casks
 cask 'google-chrome'
 cask 'slack'
