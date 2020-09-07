@@ -1,12 +1,8 @@
 ###################################
-# Copy file to root location `~/.`
+# Get brew at https://brew.sh/
+# Copy this file to root location `~/.`
 # Run `brew bundle`
 ###################################
-
-# specify a directory to install
-cask_args appdir: '/Applications'
-# install packages
-tap 'homebrew/cask'
 
 brew 'git'
 brew 'bash-completion'
@@ -19,13 +15,29 @@ brew 'node'
 brew 'wget'
 brew 'vim'
 brew 'awscli'
-# Casks
+
+# specify a directory to install casks into
+cask_args appdir: '/Applications'
+
+# required to install applications via cask
+tap 'homebrew/cask'
+
+# Casks (brew installable applications)
 cask 'google-chrome'
+cask 'firefox'
 cask 'slack'
+cask 'whatsapp'
+cask 'skype'
+cask 'zoomus'
 cask 'iterm2'
 cask 'psequel'
 cask 'aws-vault'
 cask 'docker'
 cask 'postman'
 cask 'spectacle'
-cask 'whatsapp'
+cask 'authy'
+cask 'adobe-acrobat-reader'
+cask 'gimp'
+cask 'pycharm-ce'
+cask 'visual-studio-code'
+cask 'atom'
