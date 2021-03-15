@@ -7,6 +7,7 @@
 brew 'git'
 brew 'bash-completion'
 brew 'pyenv'
+brew 'pyenv-virtualenv'
 brew 'terraform'
 brew 'tree'
 brew 'sqlite'
