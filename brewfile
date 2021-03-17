@@ -16,6 +16,7 @@ brew 'node'
 brew 'wget'
 brew 'vim'
 brew 'awscli'
+brew 'kubectl'
 
 # specify a directory to install casks into
 cask_args appdir: '/Applications'
